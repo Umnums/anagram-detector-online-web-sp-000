@@ -22,4 +22,4 @@ class Anagram
 end
 
 this = Anagram.new('diaper')
-print this.match(%w(hello world zombies pants dipper))
+this.match(%w(hello world zombies pants dipper))
