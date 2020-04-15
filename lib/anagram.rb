@@ -8,8 +8,10 @@ class Anagram
 
   def match(array)
     letters = @word.split.sort
+    print letters
     match = []
     array.each do |word|
+      print word.split.sort
       if word.split.sort == letters
         match << word
       end
