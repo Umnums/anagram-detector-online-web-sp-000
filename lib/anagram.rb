@@ -21,5 +21,5 @@ class Anagram
 
 end
 
-this = Anagram.new('diaper')
-this.match(%w(hello world zombies pants dipper))
+this = Anagram.new('ba')
+this.match(['ab', 'abc', 'bac'])
