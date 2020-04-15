@@ -11,8 +11,8 @@ class Anagram
     # print letters
     match = []
     array.each do |word|
-      # print word.split(//).sort
-      if word.split.sort(//) == letters
+      this_word = word.split.sort(//)
+      if this_word == letters
         match << word
       end
     end
