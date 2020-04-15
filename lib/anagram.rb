@@ -19,3 +19,6 @@ class Anagram
   end
 
 end
+
+this = Anagram.new('diaper')
+print diaper.match(%w(hello world zombies pants dipper))
