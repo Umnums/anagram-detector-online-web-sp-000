@@ -16,10 +16,10 @@ class Anagram
         match << word
       end
     end
-    print match
+    match
   end
 
 end
 
-this = Anagram.new('ba')
-this.match(['ab', 'abc', 'bac'])
+#this = Anagram.new('ba')
+# this.match(['ab', 'abc', 'bac'])
