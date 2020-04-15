@@ -16,7 +16,7 @@ class Anagram
         match << word
       end
     end
-    match
+    print match
   end
 
 end
